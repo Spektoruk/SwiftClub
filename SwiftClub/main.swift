@@ -8,5 +8,24 @@
 
 import Foundation
 
-print("Hello, World!")
+//HomeWork01
+print(first)
 
+print(second)
+
+print(third)
+
+
+//HomeWork02
+print(home02)
+
+//HomeWork02.02
+print(person1.name)
+
+person1.printName()
+person1.printAge()
+person1.printSex()
+
+person1.grow()
+person1.printAge()
+person1.grow()

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C353FF4120F55603006D10A7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353FF4020F55603006D10A7 /* main.swift */; };
+		C353FF4820F55653006D10A7 /* hw1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353FF4720F55653006D10A7 /* hw1.swift */; };
+		C353FF4A20F55672006D10A7 /* hw2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353FF4920F55672006D10A7 /* hw2.swift */; };
+		C353FF4C20F556B3006D10A7 /* hw2_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353FF4B20F556B3006D10A7 /* hw2_02.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		C353FF3D20F55603006D10A7 /* SwiftClub */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftClub; sourceTree = BUILT_PRODUCTS_DIR; };
 		C353FF4020F55603006D10A7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C353FF4720F55653006D10A7 /* hw1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw1.swift; sourceTree = "<group>"; };
+		C353FF4920F55672006D10A7 /* hw2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2.swift; sourceTree = "<group>"; };
+		C353FF4B20F556B3006D10A7 /* hw2_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2_02.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				C353FF4020F55603006D10A7 /* main.swift */,
+				C353FF4B20F556B3006D10A7 /* hw2_02.swift */,
+				C353FF4920F55672006D10A7 /* hw2.swift */,
+				C353FF4720F55653006D10A7 /* hw1.swift */,
 			);
 			path = SwiftClub;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C353FF4820F55653006D10A7 /* hw1.swift in Sources */,
+				C353FF4C20F556B3006D10A7 /* hw2_02.swift in Sources */,
+				C353FF4A20F55672006D10A7 /* hw2.swift in Sources */,
 				C353FF4120F55603006D10A7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
