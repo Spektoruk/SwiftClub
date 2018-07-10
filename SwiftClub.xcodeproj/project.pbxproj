@@ -31,6 +31,7 @@
 		C353FF4720F55653006D10A7 /* hw1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw1.swift; sourceTree = "<group>"; };
 		C353FF4920F55672006D10A7 /* hw2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2.swift; sourceTree = "<group>"; };
 		C353FF4B20F556B3006D10A7 /* hw2_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2_02.swift; sourceTree = "<group>"; };
+		C353FF4E20F55C19006D10A7 /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 		C353FF3420F55603006D10A7 = {
 			isa = PBXGroup;
 			children = (
+				C353FF4E20F55C19006D10A7 /* .git */,
 				C353FF3F20F55603006D10A7 /* SwiftClub */,
 				C353FF3E20F55603006D10A7 /* Products */,
 			);
