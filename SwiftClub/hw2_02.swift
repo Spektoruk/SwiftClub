@@ -49,7 +49,7 @@ enum Gender {
 
 class PersonClass {
     static let god = PersonClass()
-    let name: String//?
+    var name: String?
     let sex: Gender = .animal
     lazy var age: Int = maxYearsAd(min: 0, max: 100)
     
@@ -82,7 +82,7 @@ var person1 = Person(name: "Tom", sex: .man, age: 29)
 
 
 let person = PersonClass()
-let isSexy = person.isSexy()
+//let isSexy = person.isSexy()
 
 let god = PersonClass.god
 
