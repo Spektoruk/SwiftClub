@@ -31,3 +31,7 @@ person1.printAge()
 person1.grow()
 
 
+
+print(person1)
+
+person.printName
