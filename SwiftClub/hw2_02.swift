@@ -46,12 +46,15 @@ enum Gender {
     case animal
 }
 
+
 class PersonClass {
     static let god = PersonClass()
-    let name: String?
+    let name: String//?
     let sex: Gender = .animal
     lazy var age: Int = maxYearsAd(min: 0, max: 100)
     
+    init () {
+    }
     func printName() {
         print("My name is \(self.name)")
     }
@@ -76,6 +79,7 @@ class SocialPerson: PersonClass{
 }
 
 var person1 = Person(name: "Tom", sex: .man, age: 29)
+
 
 let person = PersonClass()
 let isSexy = person.isSexy
