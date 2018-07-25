@@ -82,8 +82,8 @@ var person1 = Person(name: "Tom", sex: .man, age: 29)
 
 
 let person = PersonClass()
-let isSexy = person.isSexy
+let isSexy = person.isSexy()
 
 let god = PersonClass.god
 
-let sexy.God = SocialPerson.god
+let sexyGod = SocialPerson.god
