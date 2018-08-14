@@ -19,19 +19,4 @@ print(third)
 //HomeWork02
 print(home02)
 
-//HomeWork02.02
-print(person1.name)
 
-person1.printName()
-person1.printAge()
-person1.printSex()
-
-person1.grow()
-person1.printAge()
-person1.grow()
-
-
-
-print(person1)
-
-person.printName()
