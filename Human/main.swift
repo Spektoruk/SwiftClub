@@ -35,18 +35,14 @@ person.printName()
 //мама и папа родители этого ребенка - возвращается новая сущность
 //и в массиве у родителей появляется ребенок
 
-enum Gender {
-    case man
-    case women
-    case animal
-}
-
 
 class SocialPerson: PersonClass{
     let isSexy = true
 }
 
-var person1 = Person(name: "Tom", sex: .man, age: 29)
+var person1 = Person(name: "Tom", sex: Gender.man, age: 20)
+var person2 = PersonClass(name: "Alice", sex: Gender.women, age: 19)
+
 
 
 let person = PersonClass()

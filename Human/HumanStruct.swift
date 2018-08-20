@@ -13,6 +13,14 @@ struct Person {
     let sex: Gender
     var age: Int
     
+    
+    init( name : String, gender : Gender, age : Int) {
+        self.name = name
+        self.gender
+        self.age = age
+    }
+    
+    
     func printName() {
         print("My name is \(self.name)")
     }

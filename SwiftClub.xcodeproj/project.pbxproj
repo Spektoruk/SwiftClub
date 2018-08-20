@@ -10,7 +10,9 @@
 		C353FF4120F55603006D10A7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353FF4020F55603006D10A7 /* main.swift */; };
 		C353FF4820F55653006D10A7 /* hw1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353FF4720F55653006D10A7 /* hw1.swift */; };
 		C353FF4A20F55672006D10A7 /* hw2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353FF4920F55672006D10A7 /* hw2.swift */; };
-		C3A977072122E7DD005A958F /* HumanStruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A977062122E7DD005A958F /* HumanStruck.swift */; };
+		C39095D6212B6EF0005375D6 /* GrowingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39095D5212B6EF0005375D6 /* GrowingProtocol.swift */; };
+		C39095D8212B7069005375D6 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39095D7212B7069005375D6 /* Gender.swift */; };
+		C3A977072122E7DD005A958F /* HumanStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A977062122E7DD005A958F /* HumanStruct.swift */; };
 		C3A977092122E7F6005A958F /* HumanClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A977082122E7F6005A958F /* HumanClass.swift */; };
 		C3AC41A72107865A0039B890 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC41A62107865A0039B890 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +43,9 @@
 		C353FF4020F55603006D10A7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C353FF4720F55653006D10A7 /* hw1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw1.swift; sourceTree = "<group>"; };
 		C353FF4920F55672006D10A7 /* hw2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2.swift; sourceTree = "<group>"; };
-		C3A977062122E7DD005A958F /* HumanStruck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanStruck.swift; sourceTree = "<group>"; };
+		C39095D5212B6EF0005375D6 /* GrowingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingProtocol.swift; sourceTree = "<group>"; };
+		C39095D7212B7069005375D6 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		C3A977062122E7DD005A958F /* HumanStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanStruct.swift; sourceTree = "<group>"; };
 		C3A977082122E7F6005A958F /* HumanClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanClass.swift; sourceTree = "<group>"; };
 		C3AC41A42107865A0039B890 /* Human */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Human; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3AC41A62107865A0039B890 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -97,8 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				C3AC41A62107865A0039B890 /* main.swift */,
-				C3A977062122E7DD005A958F /* HumanStruck.swift */,
+				C3A977062122E7DD005A958F /* HumanStruct.swift */,
 				C3A977082122E7F6005A958F /* HumanClass.swift */,
+				C39095D5212B6EF0005375D6 /* GrowingProtocol.swift */,
+				C39095D7212B7069005375D6 /* Gender.swift */,
 			);
 			path = Human;
 			sourceTree = "<group>";
@@ -192,8 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3AC41A72107865A0039B890 /* main.swift in Sources */,
-				C3A977072122E7DD005A958F /* HumanStruck.swift in Sources */,
+				C39095D8212B7069005375D6 /* Gender.swift in Sources */,
+				C3A977072122E7DD005A958F /* HumanStruct.swift in Sources */,
 				C3A977092122E7F6005A958F /* HumanClass.swift in Sources */,
+				C39095D6212B6EF0005375D6 /* GrowingProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,3 +34,7 @@ class PersonClass {
         return randomNum
     }
 }
+
+//var originalPerson = PersonClass (name: "Tom", sex: Gender.man, age: 20)
+
+
