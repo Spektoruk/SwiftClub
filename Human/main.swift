@@ -40,8 +40,8 @@ class SocialPerson: PersonClass{
     let isSexy = true
 }
 
-var person1 = Person(name: "Tom", sex: Gender.man, age: 20)
-var person2 = PersonClass(name: "Alice", sex: Gender.women, age: 19)
+var person1 = Person(name: "Tom", sex: Gender.male, age: 20)
+var person2 = PersonClass(name: "Alice", sex: Gender.female, age: 19)
 
 
 
@@ -51,4 +51,10 @@ let person = PersonClass()
 let god = PersonClass.god
 
 let sexyGod = SocialPerson.god
+
+let names = ["John", "Paul", "Peter", "Tim"]
+names.randomElement()!
+
+
+
 

@@ -38,4 +38,6 @@ struct Person {
         let randomNum = Int(arc4random_uniform(UInt32(max) - UInt32(min)) + UInt32(min))
         return randomNum
     }
+    
+    
 }

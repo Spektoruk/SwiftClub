@@ -8,7 +8,10 @@
 import Foundation
 
 enum Gender {
-    case man
-    case women
-    case animal
+    case male
+    case female
+    
+    static func random() -> Gender {
+        return Gender(rawValue:(Math.rand(inRange: (self.female.rawValue...self.male.rawValue))))!
+    }
 }
